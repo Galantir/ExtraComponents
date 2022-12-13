@@ -1,0 +1,558 @@
+Register:
+    column: Logic
+    prefab:
+        blocks:
+            -
+                color:
+                    r: 204
+                    g: 45
+                    b: 45
+                scale:
+                    x: 8
+                    y: 1
+                    z: 3
+                position:
+                    x: -0.5
+                    y: 0
+                    z: 0
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 0
+        inputs:
+            -
+                length: 0.6
+                position:
+                    x: 3
+                    y: 0.5
+                    z: 1.5
+                rotation:
+                    x: 89.98022
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 2
+                    y: 0.5
+                    z: 1.5
+                rotation:
+                    x: 89.98022
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 1
+                    y: 0.5
+                    z: 1.5
+                rotation:
+                    x: 89.98022
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 0
+                    y: 0.5
+                    z: 1.5
+                rotation:
+                    x: 89.98022
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: -1
+                    y: 0.5
+                    z: 1.5
+                rotation:
+                    x: 89.98022
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: -2
+                    y: 0.5
+                    z: 1.5
+                rotation:
+                    x: 89.98022
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: -3
+                    y: 0.5
+                    z: 1.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: -4
+                    y: 0.5
+                    z: 1.5
+                rotation:
+                    x: 90
+                    y: -0.00000153396
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 3.5
+                    y: 0.5
+                    z: -1
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 270
+            -
+                length: 0.6
+                position:
+                    x: 3.5
+                    y: 0.5
+                    z: 0
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 270
+            -
+                length: 0.6
+                position:
+                    x: 3.5
+                    y: 0.5
+                    z: 1
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 270
+        outputs:
+            -
+                startOn: false
+                position:
+                    x: -4
+                    y: 0.5
+                    z: -1.5
+                rotation:
+                    x: 270.0198
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: -3
+                    y: 0.5
+                    z: -1.5
+                rotation:
+                    x: 270.0198
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: -2
+                    y: 0.5
+                    z: -1.5
+                rotation:
+                    x: 270.0198
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: -1
+                    y: 0.5
+                    z: -1.5
+                rotation:
+                    x: 270.0198
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 0
+                    y: 0.5
+                    z: -1.5
+                rotation:
+                    x: 270.0198
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 1
+                    y: 0.5
+                    z: -1.5
+                rotation:
+                    x: 270.0198
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 2
+                    y: 0.5
+                    z: -1.5
+                rotation:
+                    x: 270.0198
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 3
+                    y: 0.5
+                    z: -1.5
+                rotation:
+                    x: 270.0198
+                    y: 0
+                    z: 0
+    logicCode: ExtraComponents.Register
+    clientCode: ExtraComponents.Client.RegisterDisplay
+    placingRules:
+        offsetDimensions:
+            x: 2
+            y: 1
+        defaultOffset:
+            x: 0
+            y: 0
+        offsetScale:
+            x: 1
+            y: 1
+        cornerMidpoint:
+            x: 0
+            y: 0
+        gridPlacingDimensions:
+            x: 17
+            y: 2
+        allowWorldRotation: true
+        allowFineRotation: true
+        canBeFlipped: true
+        flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
+        primaryGridPositions:
+            -
+                x: 0.5
+                y: 0.5
+        secondaryGridPositions:
+        primaryEdgePositions:
+        secondaryEdgePositions:
+ALU:
+    column: Logic
+    prefab:
+        blocks:
+            -
+                color:
+                    r: 97
+                    g: 75
+                    b: 232
+                scale:
+                    x: 8
+                    y: 1
+                    z: 8
+                position:
+                    x: -0.5
+                    y: 0
+                    z: 0.5
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 0
+        inputs:
+            -
+                length: 0.6
+                position:
+                    x: 3
+                    y: 0.5
+                    z: 4.5
+                rotation:
+                    x: 89.98022
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 2
+                    y: 0.5
+                    z: 4.5
+                rotation:
+                    x: 89.98022
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 1
+                    y: 0.5
+                    z: 4.5
+                rotation:
+                    x: 89.98022
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 0
+                    y: 0.5
+                    z: 4.5
+                rotation:
+                    x: 90
+                    y: -0.00000153396
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: -1
+                    y: 0.5
+                    z: 4.5
+                rotation:
+                    x: 89.98022
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: -2
+                    y: 0.5
+                    z: 4.5
+                rotation:
+                    x: 89.98022
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: -3
+                    y: 0.5
+                    z: 4.5
+                rotation:
+                    x: 89.98022
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: -4
+                    y: 0.5
+                    z: 4.5
+                rotation:
+                    x: 89.98022
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: -4
+                    y: 0.5
+                    z: -3.5
+                rotation:
+                    x: 270.0198
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: -3
+                    y: 0.5
+                    z: -3.5
+                rotation:
+                    x: 270.0198
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: -2
+                    y: 0.5
+                    z: -3.5
+                rotation:
+                    x: 270.0198
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: -1
+                    y: 0.5
+                    z: -3.5
+                rotation:
+                    x: 270.0198
+                    y: 0.00001155187
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 0
+                    y: 0.5
+                    z: -3.5
+                rotation:
+                    x: 270.0198
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 1
+                    y: 0.5
+                    z: -3.5
+                rotation:
+                    x: 270.0198
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 2
+                    y: 0.5
+                    z: -3.5
+                rotation:
+                    x: 270.0198
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 3
+                    y: 0.5
+                    z: -3.5
+                rotation:
+                    x: 270.0198
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: -4.5
+                    y: 0.5
+                    z: 1
+                rotation:
+                    x: 270
+                    y: 90
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: -4.5
+                    y: 0.5
+                    z: 0
+                rotation:
+                    x: 270
+                    y: 90
+                    z: 0
+        outputs:
+            -
+                startOn: false
+                position:
+                    x: 3.5
+                    y: 0.5
+                    z: -3
+                rotation:
+                    x: 270
+                    y: 270.0076
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 3.5
+                    y: 0.5
+                    z: -2
+                rotation:
+                    x: 270
+                    y: 270
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 3.5
+                    y: 0.5
+                    z: -1
+                rotation:
+                    x: 270
+                    y: 270
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 3.5
+                    y: 0.5
+                    z: 0
+                rotation:
+                    x: 270
+                    y: 270
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 3.5
+                    y: 0.5
+                    z: 1
+                rotation:
+                    x: 270
+                    y: 270
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 3.5
+                    y: 0.5
+                    z: 2
+                rotation:
+                    x: 270
+                    y: 270
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 3.5
+                    y: 0.5
+                    z: 3
+                rotation:
+                    x: 270
+                    y: 270
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 3.5
+                    y: 0.5
+                    z: 4
+                rotation:
+                    x: 270
+                    y: 270
+                    z: 0
+    logicCode: ExtraComponents.ALU
+    clientCode: ExtraComponents.Client.ALUDisplay
+    placingRules:
+        offsetDimensions:
+            x: 2
+            y: 1
+        defaultOffset:
+            x: 0
+            y: 0
+        offsetScale:
+            x: 1
+            y: 1
+        cornerMidpoint:
+            x: 0
+            y: 0
+        gridPlacingDimensions:
+            x: 1
+            y: 1
+        allowWorldRotation: true
+        allowFineRotation: true
+        canBeFlipped: false
+        flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
+        primaryGridPositions:
+            -
+                x: 0.5
+                y: 0.5
+        secondaryGridPositions:
+        primaryEdgePositions:
+        secondaryEdgePositions:

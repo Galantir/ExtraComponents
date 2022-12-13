@@ -1,0 +1,23 @@
+namespace ExtraComponents.Shared
+{
+    public interface IALUData
+    {
+        byte A0 { get; set; }
+        byte A1 { get; set; }
+        byte A2 { get; set; }
+        byte A3 { get; set; }
+        byte A4 { get; set; }
+        byte A5 { get; set; }
+        byte A6 { get; set; }
+        byte A7 { get; set; }
+
+        byte B0 { get; set; }
+        byte B1 { get; set; }
+        byte B2 { get; set; }
+        byte B3 { get; set; }
+        byte B4 { get; set; }
+        byte B5 { get; set; }
+        byte B6 { get; set; }
+        byte B7 { get; set; }
+    }
+}
